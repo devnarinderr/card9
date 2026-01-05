@@ -1,0 +1,102 @@
+.scroll-1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888;
+}
+.container * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  scroll-padding-top: 24px;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.card__catalogue {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: center;
+  min-height: 310px;
+  padding: 2rem;
+  background: #3405a3;
+  border-radius: 15px;
+  box-shadow: 1px 2px 5px 0px #0000006e;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.card__catalogue span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+}
+
+.card__catalogue .price {
+  font-size: 13px;
+}
+
+.card__catalogue .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
+
+.card__catalogue .img {
+  width: 145px;
+  background: #6b64f3;
+  border-radius: 15px;
+  padding: 0 0.8rem;
+  object-fit: contain;
+}
+
+.card__catalogue button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #6b64f3;
+  color: white;
+  font-weight: 600;
+}
+
+.card__catalogue button:hover {
+  background: #534bf3;
+}
+
+.contentDialog::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.contentDialog::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+.contentDialog::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}

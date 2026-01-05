@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Twitter",
+    "icon": "mdi:twitter",
+    "value": "",
+    "text": ""
+  },
+  {
+    "name": "Linkedin",
+    "icon": "mdi:linkedin",
+    "value": "",
+    "text": ""
+  },
+  {
+    "name": "Snapchat",
+    "icon": "mdi:snapchat",
+    "value": "",
+    "text": ""
+  },
+  {
+    "name": "Github",
+    "icon": "mdi:github",
+    "value": "",
+    "text": ""
+  },
+  {
+    "name": "Youtube",
+    "icon": "mdi:youtube",
+    "value": "",
+    "text": ""
+  },
+  {
+    "name": "Skype",
+    "icon": "mdi:skype",
+    "value": "",
+    "text": ""
+  },
+  {
+    "name": "YotubeAttachment",
+    "icon": "mdi:attachment",
+    "value": "",
+    "text": "Youtube Attachment"
+  }
+]

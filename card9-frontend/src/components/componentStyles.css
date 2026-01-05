@@ -1,0 +1,92 @@
+.customRenewButton {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  background-color: rgba(255, 252, 252, 0.555);
+  border-radius: 50%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+  border: none;
+}
+
+.bell {
+  width: 100%;
+}
+
+.bell path {
+  fill: #3376d2;
+}
+
+.customRenewButton:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.customRenewButton:active {
+  transform: scale(0.8);
+}
+
+/* Custom Card */
+
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: #ffffff;
+  position: relative;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  cursor: default;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-details {
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+  background-color: #ffffff57;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 70%;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.text-body {
+  color: rgb(0, 0, 0);
+}
+
+/*Text*/
+.text-title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/*Hover*/
+.card:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}

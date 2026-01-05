@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_minimal_material_kit_react=self.webpackChunk_minimal_material_kit_react||[]).push([[5954],{35954:(a,e,t)=>{t.r(e),t.d(e,{default:()=>n});var i=t(13564),r=t(44414);function n(){return(0,r.jsx)(r.Fragment,{children:(0,r.jsx)(i.sv,{})})}}}]);

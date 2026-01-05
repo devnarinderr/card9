@@ -1,0 +1,42 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.1",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mailtrap": "^3.0.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "node-base64-image": "^2.0.4",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.7",
+    "passport": "^0.5.3",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-twitter": "^1.0.4",
+    "randomstring": "^1.2.3",
+    "redis": "^4.7.0",
+    "sequelize": "^6.25.3",
+    "sequelize-cli": "^6.6.2",
+    "twilio": "^3.84.0",
+    "vcard-creator": "^0.6.0",
+    "vcards-js": "^2.10.0",
+    "vcards-js-updated": "^2.10.1"
+  }
+}
